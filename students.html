@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Students | Hostel Management System</title>
+</head>
+<body>
+    <h2>Management Students</h2>
+    <a href="/students/add">Add New Students</a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Contact</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+    <tbody>
+        <!--loop through  students-->
+        <tr>
+            <td>1</td>
+            <td>fidha</td>
+            <td>frmale</td>
+            <td>9747478125</td>
+            <td>
+                <a href="/students/edit/1">Edit</a> |
+                <a href="/students.html/delete.html/1" onclick="return confirm('are you sure?')">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
