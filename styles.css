@@ -1,0 +1,332 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Elements */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #45a049;
+}
+
+/* Register Link */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* Container for Register Page */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #45a049;
+}
+
+/* Login Link */
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+/* Container for Register Page */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #45a049;
+}
+
+/* Login Link */
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .login-container, .register-container {
+        width: 90%;
+        max-width: none;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .login-btn, .register-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .register-link, .login-link {
+        font-size: 13px;
+    }
+}
+/* Background Image for Full-Screen */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('/asset/hostelim.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Semi-transparent Container Styling */
+.login-container, .register-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slight transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+/* Ensures all input fields in the form are full width */
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.navbar nav a {
+    color: #f2f2f2;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar nav a:hover {
+    color: #45a049;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 10%;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-btn {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
