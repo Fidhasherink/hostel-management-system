@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login to Account</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="/asset/bunk-bed.png">
 </head>
-<body>
+<body class="login-page">
     <div class="login-container">
-        <h2>Login</h2>
-        <form action="/login" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required>
+        <h2>Login to Account</h2>
+        <form action="#" method="post" align="center">
+            <label for="student-id">Student ID</label>
+            <input type="text" id="student-id" name="student-id" placeholder="Student ID">
 
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="password" placeholder="Password">
 
-            <button type="submit" class="login-btn">Login</button>
-            <p class="register-link">Don't have an account? <a href="/register.html">Register here</a></p>
+            <p class="helper-text">Check what is student ID</p>
+            <button type="submit" class="btn-signin">Sign In</button>
         </form>
+        <div class="additional-links">
+            <a href="./adminlog.html">Admin Login</a>
+            <a href="./student-registration.html">Register Account</a>
+            <a href="./forgot-password.html">Forgot Password?</a>
+        </div>
     </div>
+    
 </body>
 </html>

@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
+  <title>Submit Feedback</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h2>About Our Hostel</h2>
+    <h2>Submit Feedback</h2>
   </header>
   <main>
-    <p>Our hostel offers a comfortable and safe environment for students. We provide various facilities, excellent rooms, and 24/7 support for students to make their stay enjoyable and productive.</p>
+    <form action="/view-feedback.html" method="POST">
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
   </main>
   <footer>&copy; 2024 Hostel Management System</footer>
 </body>

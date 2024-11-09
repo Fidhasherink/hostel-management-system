@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Hostel Management System</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="/asset/bunk-bed.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hostel Management System - Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <header class="navbar">
-        <a href="#" class="logo">Hostel Management System</a>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/service.html">Services</a>
-            <a href="/contact.html">Contact</a>
-        </nav>
-    </header>
-    
+    <header>
+        <h1>Welcome To HostelConnect</h1>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="login.html">Signin</a>
+  </nav>
+  </header>
+  
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="banner">
-        <h1>Welcome to your home away from home where comfort, convenience, and community come together.</h1>
-        </div>
-        <p>Manage your hostel with ease. From room assignments to payment tracking, streamline your operations with our user-friendly system.</p>
-        <div class="cta-buttons">
-            <a href="/login.html" class="cta-btn">Login</a>
-            <a href="/register.html" class="cta-btn">Register</a>
-        </div>
+  <main>
+    <div class="home">
+    <section class="marquee">
+    <marquee behavior="alternate" direction="right" >
+    <p>Welcome to the hostel management system. This system allows students and administrators to manage hostel activities effectively.</p>
+    </marquee>
     </section>
+    </div>
+    <div>
+        <img src="./asset/imgh.jpg" alt="" class="responsive-image">
+    </div>
+  </main>
+  <section id="about" class="about-page">
+    <p>"Our hostel offers a welcoming, comfortable, and secure environment, specifically designed to support students. Each room is thoughtfully furnished to provide a cozy space for relaxation and study, helping students feel right at home. We understand that a well-rounded experience goes beyond just accommodation, so we provide a range of facilities, including high-speed Wi-Fi, dedicated study areas, and recreational spaces that allow students to balance their academic responsibilities with personal time.
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>&copy; 2024 Hostel Management System. All rights reserved.</p>
-    </footer>
+     <p>Additionally, we prioritize student support with our 24/7 assistance, ensuring that help is always readily available. Our dedicated staff and security personnel work around the clock to create a safe atmosphere, giving both students and their families peace of mind. With services like laundry, room maintenance, and regular cleaning, we aim to make students' lives as convenient and stress-free as possible, enabling them to focus on their studies, growth, and enjoyment during their stay."
+        </p>  
+    </p>
+
+  </section>
+  <section id="contact" class="contact-page">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+        <p><strong>Address:</strong> 123 Hostel Lane, City, State</p>
+        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        <p><strong>Email:</strong> info@hostelmanagement.com</p>
+    </div>
+    <form class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+  <footer>&copy; 2024 Hostel Management System</footer>
 </body>
 </html>
